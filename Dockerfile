@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy application files
-COPY main.py /app/
+COPY C:\Users\urstr\OneDrive\Desktop\doc\venv\Scripts\main.py /app/
 COPY requirements.txt /app/
 
 # Upgrade pip and install dependencies
